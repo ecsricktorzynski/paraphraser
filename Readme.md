@@ -189,3 +189,13 @@ Proceedings of the 2020 Conference on Empirical Methods in Natural Language Proc
 Thompson et. al. (2020).
 Paraphrase Generation as Zero-Shot Multilingual Translation: Disentangling Semantic Similarity from Lexical and Syntactic Diversity,
 Proceedings of the Fifth Conference on Machine Translation (Volume 1: Research Papers)
+
+# Hackathon notes
+
+1. Start Docker Desktop
+2. Disconnect from VPN
+3. git clone https://github.com/ecsricktorzynski/paraphraser
+4. docker command:
+```
+docker run --rm -it -v $PWD/data:/etc/data dakshvar22/paraphraser_cpu:latest --input_file inputfile.csv --output_format yaml --language en
+```
